@@ -12,7 +12,7 @@ Code::
     <data noupdate="1">
         <record id="myid" model="ir.config_parameter">
             <field name="key">mymodule.mykey</field>
-            <field name="value">True</value>
+            <field name="value">True</field>
             <field name="group_ids" eval="[(4, ref('base.group_system'))]"/>
         </record>
 
